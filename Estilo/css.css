@@ -1,0 +1,43 @@
+@charset="utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+h1 {font-family: 'Roboto', sans-serif;
+
+.lead {font-family: 'Caveat', cursive;}
+
+.btn-success {
+    background-color: #FF2345;
+    border-color: #FF2345;
+  }
+
+.btn-primary{
+    background-color: #FF2345;
+    color: #FF2345;
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #FF2345;
+   
+  }
+
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #FF2345;
+    border-color: #FF2345;
+    box-shadow: 0 6 0 0.2rem rgba(255, 42, 38, 0.5);
+  }
+
+  .btn-primary:not(:active):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #FF2345;
+  background-color: #FF2345;
+  border-color:#FF2345;
+}
+
+.navbar-brand { colorbagraound:red}
+
+
